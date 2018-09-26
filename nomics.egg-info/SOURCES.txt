@@ -1,0 +1,10 @@
+MANIFEST.in
+README.rst
+setup.py
+nomics/__init__.py
+nomics.egg-info/PKG-INFO
+nomics.egg-info/SOURCES.txt
+nomics.egg-info/dependency_links.txt
+nomics.egg-info/top_level.txt
+nomics/stats/__init__.py
+nomics/stats/absorber.py

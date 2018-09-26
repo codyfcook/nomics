@@ -1,0 +1,11 @@
+#
+#Please add any requirements here as you expand the package
+
+queryrunner_client
+statsmodels
+scipy
+pandas
+numpy
+patsy
+pytz
+geohash
