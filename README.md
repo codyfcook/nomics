@@ -4,7 +4,7 @@ Containing general utilities/functions often useful for economic analyses at Ube
 
 To install it run
 
-  git clone gitolite@code.uber.internal:ubernomics/nomics
+  git clone https://github.com/codyfcook/nomics.git
   cd nomics && pip install -e . && cd ..
 
 ## Utilities
@@ -76,4 +76,3 @@ Has two functions to check whether treatment groups are balanced.
 
 Code to run (1) propensity score matching (2) distance matching (KNN; greedy matching; optimal matching) and (3) basic analytics on matched pairs (calculate ATT; some measures of balance)
 
-See [matching readme](https://code.uberinternal.com/diffusion/UBNOM/browse/master/nomics/matching/README.md) for further details.
