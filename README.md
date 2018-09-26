@@ -4,8 +4,7 @@ Containing general utilities/functions often useful for economic analyses at Ube
 
 To install it run
 
-  git clone https://github.com/codyfcook/nomics.git
-  cd nomics && pip install -e . && cd ..
+`git clone https://github.com/codyfcook/nomics.git && cd nomics && pip install -e . && cd ..`
 
 ## Utilities
 
