@@ -8,3 +8,12 @@ patsy
 pytz
 geohash
 tables
+matplotlib
+seaborn 
+sklearn 
+shapely
+geohash
+Geohash
+geopandas
+descartes
+fiona
