@@ -18,9 +18,7 @@ pyenv install 2.7.13
 
 # Setup 4 virtual envs to use 
 pyenv virtualenv 3.7.4 jupyter3
-pyenv virtualenv 3.7.4 tools3 
 pyenv virtualenv 2.7.13 ipython2 
-pyenv virtualenv 2.7.13 tools2
 
 # Start with python 3 setup 
 pyenv activate jupyter3
@@ -36,20 +34,24 @@ pip install ipykernel
 python -m ipykernel install --user
 pyenv deactivate
 
-# Install python 3 packages
-pyenv activate tools3
+# Install python 3 packages 
+pyenv activate jupyter3 
 pip install -r requirements.txt
+# jupyter extensions
+pip install https://github.com/ipython-contrib/jupyter_contrib_nbextensions/tarball/master
+jupyter contrib nbextension install --user
+pip install jupyter_nbextensions_configurator
+jupyter nbextensions_configurator enable --user
 pyenv deactivate
 
 # install python 2 packages
-pyenv activate tools2
-pip install --upgrade pip
+pyenv activate ipython2 
 pip install -r requirements.txt
 # pip install -e ~/Github/nomics
 pyenv deactivate
 
 # Make everything play nice
-pyenv global 3.7.4 2.7.13 jupyter3 ipython2 tools3 tools2
+pyenv global 3.7.4 2.7.13 jupyter3 ipython2 
 
 # Will isntall dependences on start 
 echo 'pyenv virtualenvwrapper_lazy' >> ~/.bashrc
