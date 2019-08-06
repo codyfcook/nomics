@@ -4,6 +4,7 @@
 brew install pyenv
 brew install pyenv-virtualenv
 brew install pyenv-virtualenvwrapper
+brew install xz 
 
 # Change directory names if desired
 mkdir ~/.ve
