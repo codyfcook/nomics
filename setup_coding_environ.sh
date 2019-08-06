@@ -42,7 +42,11 @@ pip install -r requirements.txt
 pyenv deactivate
 
 # install python 2 packages
+pyenv activate tools2
+pip install --upgrade pip
+pip install -r requirements.txt
 # pip install -e ~/Github/nomics
+pyenv deactivate
 
 # Make everything play nice
 pyenv global 3.7.4 2.7.13 jupyter3 ipython2 tools3 tools2
