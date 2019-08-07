@@ -5,6 +5,7 @@ brew install pyenv
 brew install pyenv-virtualenv
 brew install pyenv-virtualenvwrapper
 brew install xz 
+brew install tcl-tk
 
 # Change directory names if desired
 mkdir ~/.ve
