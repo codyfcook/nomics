@@ -1,6 +1,6 @@
 # Nomics
 
-Containing general utilities/functions often useful for economic analyses at Uber. More detailed documentation is found in the comments of the code itself
+Containing general utilities/functions often useful for economic analyses. More detailed documentation is found in the comments of the code itself
 
 To install it run
 
