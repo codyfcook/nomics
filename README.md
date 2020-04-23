@@ -1,4 +1,7 @@
-# Nomics
+
+Note: this package is for Python 2 and has not been updated in awhile. 
+
+# nomics
 
 Containing general utilities/functions often useful for economic analyses. More detailed documentation is found in the comments of the code itself
 
@@ -25,7 +28,7 @@ Sample of a few of the utility functions:
 
 ##### Absorber
 
-The absorber allows you to run absorbed FE regressions. See Stata's areg command for more details on what this means.
+The absorber allows you to run absorbed FE regressions (the new `linearmodels` package is likely now a better choice than this, although performance is similar).  
 
 To run it, do:
 
