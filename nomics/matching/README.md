@@ -20,10 +20,6 @@ There are currently two options for measuring distance: Mahalanobis distance or 
 
 There are three options for matching based on distance: KNN, greedy matching, and optimal matching. Currently, KNN matches can only be made with replacement. Greedy matching and optimal matching currently can be made without replacement.
 
-### Walkthrough
-
-Example [Jupyter notebook here](https://people.uberinternal.com/~basil.halperin/example.html) walks through the functionality described below.
-
 #### Calculating distance
 
 The walkthrough below will use the example of matching cities, but any set of entities with characteristics can be matched.
@@ -64,9 +60,4 @@ KNN matching uses the k nearest neighbors based on distance. Currently, these ma
 1. Pick a partition
 2. Consider the permutations of all possible pairs at once
 3. Compute some loss function over the set of distances (e.g. sum of squared)
-
-
-#### Example: greedy vs. optimal matching
-
---> [link](https://docs.google.com/spreadsheets/d/1h3qHVw3nDQuFnSlhNsVm8A2lA7G2uRyhRetU048jxTk/edit#gid=0)
-
+ 
