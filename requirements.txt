@@ -17,3 +17,5 @@ Geohash
 geopandas
 descartes
 fiona
+pyarrow
+networkx
